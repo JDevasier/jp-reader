@@ -1,0 +1,32 @@
+.jp-text{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.content-text {
+    font-size:24px;
+}
+
+.vocab-word {
+    background-color:rgba(255, 127, 80, 0.5);
+    margin: 0px 1px;
+}
+
+.vocab-list-word {
+    margin-bottom:0.2rem;
+}
+
+.vocab-kanji {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#vocab-list {
+    overflow-y:auto;
+    overflow-x:hidden;
+    height:800px;
+}
+
+#content-area {
+    height:565px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}

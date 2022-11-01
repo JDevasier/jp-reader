@@ -20,6 +20,7 @@
     
     <!-- More Scripts -->
     <script src="static/js/reader.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
 
     <!-- More Styles -->
     <link rel="stylesheet" href="static/css/style.css">
@@ -32,14 +33,14 @@
         <div class="row">
             <div class="col-3">
                 <h2>Vocabulary</h2>
-                <div id="vocab-list">
+                <div id="vocab-list" class="list-group">
                     
                 </div>
             </div>
             
             <div class="col-9">
                 <h2>Input</h2>
-                <textarea id="jp-input" style="width:100%; height:150px; border-color:rgba(0,0,0,0.1); outline:none" placeholder="Enter your text here"></textarea>
+                <textarea id="jp-input" placeholder="Enter your text here"></textarea>
                 <hr/>
                 <h2>Content</h2>
                 <div id="content-area" class="jp-text">

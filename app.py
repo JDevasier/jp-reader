@@ -15,7 +15,7 @@ def parse_jp():
     if len(text.strip("")) == 0:
         return jsonify(None)
     
-    vocab = kanji_helper.parse(text)
+    vocab = kanji_helper.parse_linear(text)
     
     return jsonify(vocab)
 
